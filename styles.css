@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.app {
+  width: 1600 px;
+  max-width: 1600px;
+  padding: 30px;
+  background: rgb(243, 241, 241);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.role-select {
+  text-align: center;
+}
+
+.role-options button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.role-options button:hover {
+  background-color: #45a049;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  gap: 20px;
+}
+
+.auth-form {
+  flex: 3;
+}
+
+.back-button {
+  flex: 1;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #d32f2f;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.auth-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #45a049;
+}
+
+.dashboard {
+  text-align: center;
+}
+
+.dashboard button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background-color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+  #app {
+    width: 100%; /* Full width on smaller screens */
+    height: auto; /* Adjust height automatically */
+  }
+}
